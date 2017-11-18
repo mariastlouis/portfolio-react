@@ -1,0 +1,31 @@
+@import 'variable';
+
+.card {
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+  background: #ffffff;
+  margin: 10px;
+  width: 280px;
+  height: 280px;
+}
+
+.description {
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+  background: $accent-color;
+  width: 280px;
+  height: 280px;
+  display: flex; 
+  align-content: center;
+}
+
+.description-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+.portfolio-image {
+  width: 200px;
+}

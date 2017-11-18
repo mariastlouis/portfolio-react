@@ -1,2 +1,65 @@
 @import 'variable';
 
+p {
+  font-family: $body-font;
+}
+
+h1 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 25px;
+  font-family: $title-font;
+  letter-spacing: 2px;
+}
+
+.about-section {
+  background-color: $dk-gray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 500px;
+}
+
+.about-inner-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.headline-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $title-font;
+}
+
+.about-img-icon {
+  height: 310px;
+}
+
+.about-img {
+  width: 300px;
+}
+
+.about-img-container{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    height: 60px;
+}
+
+.about-img-text p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+}

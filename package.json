@@ -15,7 +15,7 @@
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+      "\\.(scss|css|less)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
   "author": "Steve Kinney",
@@ -55,5 +55,10 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react-leaflet": "^1.7.4",
+    "react-scrollable-anchor": "^0.5.0",
+    "react-stonecutter": "^0.3.8"
   }
 }
