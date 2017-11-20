@@ -17,6 +17,19 @@
   align-content: center;
 }
 
+.project-image {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: $med-gray;
+}
+
 .description-text {
     display: flex;
     align-items: center;
@@ -26,6 +39,23 @@
     color: #ffffff;
 }
 
-.portfolio-image {
-  width: 200px;
+
+.card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $accent-color;
+  font-family: $body-font;
+}
+
+.card-links a:hover {
+  color: $dk-gray;
 }
