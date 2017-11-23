@@ -59,6 +59,7 @@
   "dependencies": {
     "react-leaflet": "^1.7.4",
     "react-scrollable-anchor": "^0.5.0",
+    "react-scrollchor": "^4.0.0",
     "react-stonecutter": "^0.3.8"
   }
 }
