@@ -1,0 +1,67 @@
+@import 'variable';
+
+.accent-hed {
+  font-family: $accent-font;
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.intro.skills-box {
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
+
+.skills {
+  background: $accent-color;
+  color: white;
+  padding: 20px;
+}
+
+.skills-hed {
+  font-family: $title-font;
+  font-size: 30px;
+}
+
+.skills-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-box {
+  width: 50%;
+}
+
+.cog-icon {
+  font-size: 30px;
+  text-align: center;
+}
+
+.two-skills-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-list li {
+  font-family: $body-font;
+}
+
+a.social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a.social-link:hover {
+  color: $dk-gray;
+}
+
+.github-link {
+  margin-right: 30px;
+}
+
+
+.skills-bottom {
+  display: flex;
+  justify-content: center;
+}
