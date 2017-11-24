@@ -1,19 +1,22 @@
+@import 'variable';
+
 ul {
   list-style: none;
   margin: 20px auto;
 }
 
-.Card {
-  width: 300px;
-  padding: 25px;
-  background: blue;
+.top-button {
+  position: fixed;
+  background: $dk-gray;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+
 }
 
-.Card > h3 {
-  text-align: center;
-  margin-top: 0;
-}
-
-.Card > img {
-  width: 100%;
+a.top-button {
+  text-decoration: none;
 }
