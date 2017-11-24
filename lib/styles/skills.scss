@@ -65,3 +65,22 @@ a.social-link:hover {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+.skills-top {
+  flex-direction: column;
+
+ .skills-box {
+  width: 100%;
+ } 
+
+.intro.skills-box {
+  border-right: none;
+    border-bottom: 2px solid white;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+}
+
+}

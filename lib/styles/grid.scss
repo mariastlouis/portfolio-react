@@ -1,7 +1,6 @@
 @import 'variable';
 
 .portfolio-container {
-  background: #e8e8e8;
   min-height: 800px;
 }
 .portfolio-grid {
@@ -37,6 +36,10 @@
 
 }
 
+
+.headline-div {
+  margin-top: 15px;
+}
 @media screen and (max-width: 1200px) {
   .portfolio-grid {
     width: 900px;
