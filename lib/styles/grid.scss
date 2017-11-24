@@ -28,6 +28,12 @@
   font-size: 15px;
   padding-left: 5px;
   padding-right: 5px;
+
+}
+
+
+.sort-button:focus {
+  outline:0;
 }
 
 .sort-button:hover {
