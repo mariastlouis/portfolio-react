@@ -5,10 +5,16 @@ p {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 35px;
 }
 .about-hed {
-  color: #ffffff;
+  color: $lt-gray;
+
+}
+
+.heavy {
+  color: $dk-gray;
+  font-weight: 400;
 }
 
 
@@ -19,7 +25,7 @@ h3 {
 }
 
 .about-section {
-  background-color: $dk-gray;
+  background-color: $off-white;
   color: white;
   display: flex;
   flex-direction: column;
@@ -30,6 +36,30 @@ h3 {
 .about-inner-container {
   display: flex;
   flex-direction: row;
+}
+
+.about-card {
+  background: #fff;
+  width: 250px;
+  height: 250px;
+}
+
+.about-icon {
+  background: #acd6ce;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: -40px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-icon {
+  width: 60px;
+  heigth: 60px;
 }
 
 .headline-div {
