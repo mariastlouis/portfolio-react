@@ -1,4 +1,6 @@
-# React Starter Kit
+This is my personal portfolio site. I built this in React.JS as a way to help my knowledge of the framework. Feel free to visit the live site at `http://www.mariastlouissanchez.com`
+
+
 
 To install the dependencies:
 
