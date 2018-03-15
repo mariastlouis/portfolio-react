@@ -1,4 +1,4 @@
-This is my personal portfolio site. I built this in React.JS as a way to help my knowledge of the framework. Feel free to visit the live site at [www.mariastlouissanchez.com](http://www.mariastlouissanchez.com)
+This is my personal portfolio site. I built this in React.js as a way to help grow in my knowledge of the framework. Feel free to visit the live site at [www.mariastlouissanchez.com](http://www.mariastlouissanchez.com)
 
 
 ![alt text](https://github.com/mariastlouis/portfolio-react/blob/master/public/portfolio_main.png)
