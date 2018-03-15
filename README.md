@@ -1,5 +1,7 @@
-This is my personal portfolio site. I built this in React.JS as a way to help my knowledge of the framework. Feel free to visit the live site at `http://www.mariastlouissanchez.com`
+This is my personal portfolio site. I built this in React.JS as a way to help my knowledge of the framework. Feel free to visit the live site at [www.mariastlouissanchez.com](http://www.mariastlouissanchez.com)
 
+
+![alt text](https://github.com/mariastlouis/Accountable/blob/master/public/accountable_front.png)
 
 
 To install the dependencies:
