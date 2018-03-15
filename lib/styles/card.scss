@@ -8,6 +8,20 @@
   height: 280px;
 }
 
+.card-title {
+    background: #acd6ce;
+    height: 50px;
+    position: absolute;
+    width: 280px;
+    opacity: 0.9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-itemx: center;
+    /* display: flex; */
+}
+
 .description {
   box-shadow: 1.5px 3px 3px 1.5px #566782;
   background: $accent-color;
@@ -19,15 +33,17 @@
 
 .project-image {
     display: flex;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
-.project-title {
+img.portfolio-image {
+  width: 280px;
+}
+
+p.project-title {
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    color: $med-gray;
+    color: $dk-gray;
 }
 
 .description-text {

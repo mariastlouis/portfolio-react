@@ -69,7 +69,8 @@
 .icon-bar{
   display:flex;
   flex-direction:row;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .name-logo {
@@ -77,6 +78,10 @@
   margin-bottom: 20px;
 }
 
+.download-icon {
+  height: 12px;
+  width: 12px;
+}
 
 .nav-button {
   padding: 9px;
@@ -94,11 +99,33 @@
   color: $dk-gray;
 }
 
+button.resume-link {
+    border: none;
+    background: #fff;
+    padding: 5px;
+    color: $lt-gray;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+button.resume-link:hover{
+  background: $lt-gray;
+  color: #fff;
+}
+
+a.resume-link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid white;
+}
 
 a.social-link {
     color: white;
     text-decoration: none;
     font-size: 40px;
+    width: 70px;
+    text-align:center;
 }
 
 a.social-link:hover {
