@@ -1,10 +1,10 @@
 @import 'variable';
 
-.accent-hed {
-  font-family: $accent-font;
-  color: #ffffff;
-  font-size: 55px;
-}
+// .accent-hed {
+//   font-family: $title-font;
+//   color: #ffffff;
+//   font-size: 55px;
+// }
 
 .intro.skills-box {
     border-right: 2px solid white;
@@ -13,13 +13,25 @@
 
 .skills {
   background: $accent-color;
-  color: white;
+  color: $dk-gray;
   padding: 20px;
+  font-weight: 200;
 }
 
-.skills-hed {
+.woman-icon {
+  margin-bottom: -5px;
+}
+
+.skills-hed, .accent-hed {
   font-family: $title-font;
   font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.skills-text {
+  margin-top: 20px;
+  color: $dk-gray;
 }
 
 .skills-top {
@@ -53,12 +65,12 @@ a.social-link {
 }
 
 a.social-link:hover {
-  color: $dk-gray;
+  color: $lt-gray;
 }
 
-.github-link {
-  margin-right: 30px;
-}
+// .github-link {
+//   margin-right: 30px;
+// }
 
 
 .skills-bottom {

@@ -5,29 +5,48 @@
   background: #ffffff;
   margin: 10px;
   width: 280px;
-  height: 280px;
+  height: 300px;
+}
+
+.card:hover{
+  cursor:pointer;
+}
+
+.card-title {
+    background: #acd6ce;
+    height: 50px;
+    width: 280px;
+    opacity: 0.9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-itemx: center;
+    /* display: flex; */
 }
 
 .description {
   box-shadow: 1.5px 3px 3px 1.5px #566782;
   background: $accent-color;
   width: 280px;
-  height: 280px;
+  height: 300px;
   display: flex; 
   align-content: center;
 }
 
 .project-image {
     display: flex;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
-.project-title {
+img.portfolio-image {
+  width: 280px;
+}
+
+.card-title p {
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    color: $med-gray;
+    color: $dk-gray;
 }
 
 .description-text {
@@ -36,9 +55,10 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    color: #ffffff;
+    color: $dk-gray;
     font-family: $body-font;
     font-size: 18px;
+    font-weight: 200;
 }
 
 

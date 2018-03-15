@@ -12,15 +12,28 @@
   justify-content: space-between;
 }
 
-h1 {
-  font-family: $title-font;
+
+.main-img {
+  background-size: cover;
+  background: url(../../public/developer_main_black_screen.jpg) no-repeat;
+  height: 600px;
+  width: 100%;
 }
 
-.logo-div {
-  margin-left: 20px;
+.title {
+  color: #fff;
+  margin-top: 15%;
 }
-.logo {
-  width: 250px;
+
+.center {
+  text-align:center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 .nav {
@@ -45,4 +58,83 @@ h1 {
 
 .nav li a:hover {
   color: $accent-color;
+}
+
+.title {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.icon-bar{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.name-logo {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.download-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.nav-button {
+  padding: 9px;
+  background: none;
+  border: 2px solid $accent-color;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  width: 100px;
+  font-size: 17px;
+}
+
+.nav-button:hover{
+  background: $accent-color;
+  color: $dk-gray;
+}
+
+button.resume-link {
+    border: none;
+    background: #fff;
+    padding: 5px;
+    color: $lt-gray;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+button.resume-link:hover{
+  background: $lt-gray;
+  color: #fff;
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+a.resume-link {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid white;
+}
+
+a.social-link {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    width: 70px;
+    text-align:center;
+}
+
+a.social-link:hover {
+  color: $med-gray;
 }
